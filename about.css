@@ -1,0 +1,74 @@
+/* BODY STYLES */
+body{
+    background-color: rgb(20, 20, 20);
+    background-image: url(pictures/promo_04.png);
+    width: 100%;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    color: rgb(235, 235, 235);
+    box-shadow: inset 50px 50px 60px black, inset -50px -50px 60px black;
+}
+
+/* TOP STYLES */
+#top{
+    text-align: center;
+}
+
+/* BACKDROP STYLES */
+#backdrop{
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    box-shadow: 10px 0px 60px black,
+}
+
+/* DEVELOPER STYLES */
+#developer_sect{
+    width:80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* MISSION STYLES */
+#mission_sect{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    color: rgb(235, 235, 235);
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-width: 2px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+#mission_statement{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+/* DEV STYLES */
+#developer_sect{
+    /* width: 80%; */
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-right: 4em;
+    color: rgb(235, 235, 235);
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-width: 2px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding-top: 1em;
+}

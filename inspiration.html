@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Tanuki Games - Inspiration</title>
+    <link rel="stylesheet" href="products.css" async>
+    <script src="inspiration.js" async></script>
+    <script src="background_animation.js" async></script>
+</head>
+<body style="background-image: url(pictures/Promo_5.png);"> 
+<!-- BACKGROUND-IMAGE SET IN HTML FOR CHANGING IT IN JS -->
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Tanuki Games</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="inspiration.html">Inspiration</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.kickstarter.com/?country=US">Kickstarter</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- BACKDROP BEGINS HERE -->
+    <div id="backdrop">
+
+        <!-- BANNER INTROS GAME, NOT COMPANY -->
+        <div id="top">
+            <h5 class="card-title display-3" >Our Inspiration</h5>
+        </div>
+        <!-- 2ND NAVBAR, USED TO CHANGE INFORMATION ON PAGE -->
+        <nav id="game_nav" class="navbar navbar-expand-lg navbar-dark bg-dark text-info">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li onclick="change(0)" class="nav-item">
+                        <a class="nav-link" href="#">CyberPunk 2077<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li onclick="change(1)" class="nav-item">
+                        <a class="nav-link" href="#">No Man's Sky</a>
+                    </li>
+                    <li onclick="change(2)" class="nav-item">
+                        <a class="nav-link" href="#">Hollow Knight</a>
+                    </li>
+                    <li onclick="change(3)" class="nav-item">
+                        <a class="nav-link" href="#">BloodStained: RotK</a>
+                    </li>
+                    <li onclick="change(4)" class="nav-item">
+                      <a class="nav-link" href="#">Warframe</a>
+                  </li>
+                </ul>
+                <!-- EACH LI HAS AN ONCLICK EVENT THAT CORRESPONDS TO A FUNCTION IN THE JS -->
+            </div>
+        </nav>
+
+        <!-- BEGINS SECTION ON THE GAME -->
+        <div id="game_info">
+            <!-- CHANGES WITH INFO ON PAGE WHEN 2ND NAVBAR IS USED -->
+            <h1 id="game_head"></h1>
+            <!-- CHANGES INFORMATION TO MATCH WHAT WAS SELECTED ON 2ND NAVBAR -->
+            <p id="about_game">
+              Some of our favorite games from the past decade have suffered due to poor management and 
+              dishonest advertisements. This includes false promises, staged or faked gameplay reveals,
+              celebrity endorsement, charismatic spokespeople, rushed developments, and abysmal workplace
+              environments. At Tanuki Games we strive to prevent those misdeeds and intend to make our business
+              yours. 
+              <br>
+              Some of our favorite games have succeeded from a transparent and open relationship with the public. We 
+              hope to replicate their success and build similar fanbase interaction. Through Kickstarter rewards, 
+              developer streams, and player feedback, we hope you stick with us for the best product possible.
+            </p>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="row">
+        <p class="col-6">Follow us on <a href="https://twitter.com/?lang=en">Twitter</a> and <a href="https://www.instagram.com/">Instagram</a></p>
+        <p class="col-6">Consider supporting us on <a href="">Kickstarter</a></p>
+    </footer>
+</body>
+</html>

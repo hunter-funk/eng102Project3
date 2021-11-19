@@ -1,0 +1,101 @@
+/* BODY STYLES */
+body{
+    background-color: rgb(20, 20, 20);
+    background-image: url(pictures/promo_04.png);
+    width: 100%;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    color: rgb(235, 235, 235);
+    box-shadow: inset 50px 50px 60px black, inset -50px -50px 60px black;
+}
+
+/* TOP STYLES */
+#top{
+    text-align: center;
+}
+
+/* BACKDROP SETTINGS */
+#backdrop{
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    box-shadow: 10px 0px 60px black,
+}
+
+/* MISSION STYLES */
+#mission_sect{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-width: 2px;
+}
+#mission_statement{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+/* DEV STYLES */
+#developer_sect{
+    /* width: 80%; */
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 4em;
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-width: 2px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+/* GAME STYLES */
+#game_sect{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 5em;
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-width: 2px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: rgb(235, 235, 235);
+}
+#game_pic{
+    width: 50%;
+}
+
+/* BLOG STYLES ~ WAS REMOVED
+#blog_sect{
+
+} */
+
+/* KICKSTART STYLES */
+#kickstart_sect{
+    margin-top: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-width: 2px;
+    background-color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+}
+
+/* FOOTER STYLES */
+footer{
+    width: 100%;
+    text-align: center;
+    padding-top: 1em;
+}
